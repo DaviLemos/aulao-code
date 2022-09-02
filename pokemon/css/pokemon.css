@@ -1,0 +1,25 @@
+.search-box {
+  margin: 0 auto 10px;
+  width: 940px;
+  text-align: center;
+}
+
+.search-select {
+  /* border-radius: 20px; */
+  padding: 5px;
+}
+
+.search-input {
+  margin: 0 0 0 20px;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.list-index-pokemons {
+  /* width: 940px; */
+  margin: 0 auto 25px;
+}
+
+.invisivel {
+  display: none;
+}

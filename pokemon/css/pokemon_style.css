@@ -1,0 +1,215 @@
+.type-default {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fbf6f9;
+  text-shadow: 1.5px 0 0 black, -1.5px 0 0 black, 0 1px 0 black,
+    0 -1.5px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black,
+    -1px 1px 0 black;
+}
+
+.pokemon_background {
+  width: 105px;
+  height: 105px;
+}
+
+.type-color-bug,
+.type-background-bug {
+  /* background: #729f3f; */
+  background: #8b990e;
+  /* background: url(/imagens/bug_background.png) center left; */
+}
+
+.type-color-dark,
+.type-background-dark {
+  /* background: #707070; */
+  background: #3d2f24;
+  /* background: url(/imagens/dark_background.png) center left; */
+}
+
+.type-color-dragon,
+.type-background-dragon {
+  /* background: linear-gradient(#53a4cf 0% 50%, #f16e57 50% 100%); */
+  background: #765fdf;
+}
+
+.type-color-electric,
+.type-background-electric {
+  /* background: #eed535; */
+  background: #f8b715;
+  /* background: url(/imagens/electric_background.png) center left; */
+}
+
+.type-color-fairy,
+.type-background-fairy {
+  /* background: #fdb9e9; */
+  background: #f2b0f4;
+  /* background: url(/imagens/fairy_background.png) center left; */
+}
+
+.type-color-fighting,
+.type-background-fighting {
+  /* background: #d56723; */
+  background: #7f3119;
+  /* background: url(/imagens/fighting_background.png) center left; */
+}
+
+.type-color-fire,
+.type-background-fire {
+  /* background: #fd7d24; */
+  background: #d72e07;
+  /* background: url(/imagens/fire_background.png) center left; */
+}
+
+.type-color-flying,
+.type-background-flying {
+  /* background: linear-gradient(#3dc7ef 0% 50%, #bdb9b8 50% 100%); */
+  background: #99a8f3;
+  /* background: url(/imagens/flying_background.png) center left; */
+}
+
+.type-color-ghost,
+.type-background-ghost {
+  /* background: #7b62a3; */
+  background: #4f4fa1;
+  /* background: url(/imagens/ghost_background.png) center left; */
+}
+
+.type-color-grass,
+.type-background-grass {
+  /* background: #9bcc50; */
+  background: #72c034;
+  /* background: url(/imagens/grass_background.png) center left; */
+}
+
+.type-color-ground,
+.type-background-ground {
+  /* background: linear-gradient(#f7de3f 0% 50%, #ab9842 50% 100%); */
+  background: #b39546;
+  /* background: url(/imagens/ground_background.png) center left; */
+}
+
+.type-color-ice,
+.type-background-ice {
+  /* background: #51c4e7; */
+  background: #6dd2f4;
+  /* background: url(/imagens/ice_background.png) center left; */
+}
+
+.type-color-normal,
+.type-background-normal {
+  /* background: #a4acaf; */
+  background: #c4c1b9;
+  /* background: url(/imagens/normal_background.png) center left; */
+}
+
+.type-color-poison,
+.type-background-poison {
+  /* background: #bc7ccc; */
+  background: #914493;
+  /* background: url(/imagens/poison_background.png) center left; */
+}
+
+.type-color-psychic,
+.type-background-psychic {
+  /* background: #f366b9; */
+  background: #e64c80;
+  /* background: url(/imagens/psychic_background.png) center left; */
+}
+
+.type-color-rock,
+.type-background-rock {
+  /* background: #a38c21; */
+  background: #9d873c;
+  /* background: url(/imagens/rock_background.png) center left; */
+}
+
+.type-color-steel,
+.type-background-steel {
+  /* background: #9eb7b8; */
+  background: #8f8e9e;
+  /* background: url(/imagens/steel_background.png) center left; */
+}
+
+.type-color-water,
+.type-background-water {
+  /* background: #4592c4; */
+  background: #3193f6;
+  /* background: url(/imagens/water_background.png) center left; */
+}
+
+/** ----------------------- BACKGROND ----------------------- **/
+
+/* .type-background-bug {
+  background: url(/imagens/bug_background.png) center left;
+} */
+
+/* .type-background-dark {
+  background: url(/imagens/dark_background.png) center left;
+} */
+
+/* .type-background-dragon {
+  background: url(/imagens/dragon_background.png) center left;
+} */
+
+/* .type-background-electric {
+  background: url(/imagens/electric_background.png) center left;
+} */
+
+/* .type-background-fairy {
+  background: url(/imagens/fairy_background.png) center left;
+} */
+
+/* .type-background-fighting {
+  background: url(/imagens/fighting_background.png) center left;
+} */
+
+/* .type-background-fire {
+  background: url(/imagens/fire_background.png) center left;
+} */
+
+/* .type-background-flying {
+  background: url(/imagens/flying_background.png) center left;
+} */
+
+/* .type-background-ghost {
+  background: url(/imagens/ghost_background.png) center left;
+} */
+
+/* .type-background-grass {
+  background: url(/imagens/grass_background.png) center left;
+} */
+
+/* .type-background-ground {
+  background: url(/imagens/ground_background.png) center left;
+} */
+
+/* .type-background-ice {
+  background: url(/imagens/ice_background.png) center left;
+} */
+
+/* .type-background-normal {
+  background: url(/imagens/normal_background.png) center left;
+} */
+
+/* .type-background-poison {
+  background: url(/imagens/poison_background.png) center left;
+} */
+
+/* .type-background-psychic {
+  background: url(/imagens/psychic_background.png) center left;
+} */
+
+/* .type-background-rock {
+  background: url(/imagens/rock_background.png) center left;
+} */
+
+/* .type-background-steel {
+  background: url(/imagens/steel_background.png) center left;
+} */
+
+/* .type-background-water {
+  background: url(/imagens/water_background.png) center left;
+} */

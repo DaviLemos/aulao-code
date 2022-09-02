@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/pokemon_style.css" />
+    <link rel="icon" type="image/png" href="../imagens/favicon.png" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="box-header">
+        <h1><img src="../imagens/logo-header.png" alt="" /></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pokemons.html">Pokemons</a></li>
+            <li><a href="items.html">Itens</a></li>
+            <li><a href="info.html">Infos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-box">
+        <h2 class="section-title">Pokemons List</h2>
+        <!-- <div ></div> -->
+        <ul class="list-index-pokemons" id="pokemonView"></ul>
+        <!-- <a class="check-over" href="pokemon.html">check over &#10140;</a> -->
+      </section>
+      <section class="section-box">
+        <h2 class="section-title">Itens List</h2>
+        <ul class="list-index-itens" id="itensView"></ul>
+      </section>
+      <section class="section-box">
+        <h2 class="section-title">Weekness Table</h2>
+        <div class="info-box">
+          <img src="../imagens/table.jpg" alt="Weekness table" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copyright">
+        &copy; Copyright Pokemon Gotta catch ém all - 2021
+      </p>
+    </footer>
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <script>
+      SystemJS.config({
+        // Tell it that our javascript files are in the /js folder
+        baseURL: '/js',
+        // Tell it to apply Babel to our JS files
+        transpiler: 'plugin-babel',
+        // Configure the Babel plugin - it's basically just telling it where to read the files from - in our case, they're in node_modules
+        map: {
+          'plugin-babel':
+            '../node_modules/systemjs-plugin-babel/plugin-babel.js',
+          'systemjs-babel-build':
+            '../node_modules/systemjs-plugin-babel/systemjs-babel-browser.js',
+        },
+      });
+      System.defaultJSExtensions = true;
+      System.import('../js/app_es6/boot_index.js').catch(function (err) {
+        console.error(err);
+      });
+    </script>
+  </body>
+</html>

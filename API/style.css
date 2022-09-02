@@ -1,0 +1,14 @@
+ul {
+  margin: 0;
+  padding: 0;
+  height: 40em;
+  column-width: 4em;
+  -moz-column-width: 4em;
+  -webkit-column-width: 4em;
+}
+li {
+  width: 4em;
+  height: 1.5em;
+  line-height: 1.5em;
+  list-style-type: none;
+}
